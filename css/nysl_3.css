@@ -1,0 +1,345 @@
+body
+{
+    background-color: gray;
+}
+.container
+{
+    width: 900px;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+/*header de la pagina*/
+
+header, .logo2P
+{
+    position: relative;
+    height: 350px;
+    margin-top: 20px;
+    background-image: url("../img/design1_image1.jpg");
+    animation: 1s mostrar;
+    
+}
+#fondo
+{
+    display: none;
+    /*width: 99%;
+    height: 250px;
+    margin:5px;
+    margin-bottom: 0;*/
+}
+
+#logo, #logo2
+{
+    /*
+    border: black solid 2px;
+    background-color: white;*/
+    height: 130px;
+    position: absolute;
+    top: 61%;
+    right: 85%;
+    animation-duration: 1.5s;
+    animation-name: girar;
+}
+
+#logo2
+{
+    right: 1%;
+   /* color: red;
+    font-size: 30px;
+    text-shadow: 2px 2px black*/
+
+}
+
+h1
+{
+    position: absolute;
+    bottom:78%;
+    text-align: center;
+    display: block;
+    margin-left: 150px;
+    color: black;/*#00ff97*/
+    font-size: 36px;
+    background-color: white;
+    border: black solid;
+    width: 600px;
+    animation-duration: 1.5s;
+    animation-name: btn;
+}
+
+h2
+{
+    position: absolute;
+    top:90%;
+    left: 33%;
+    width: 300px;
+    background-color: white;
+    border: black solid;
+    text-align: center;
+    animation-delay: 0.5s;
+    animation: 1.3s;
+    
+    animation-name: btn2;
+}
+
+section img
+{
+    display: none;
+}
+
+/*navegacion*/
+
+main
+{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    width: 630px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Rules
+{
+    text-align: left;
+}
+
+section
+{
+    height: 150%;
+}
+
+nav
+{
+    position: fixed;
+    bottom: 10px;
+    left: 17%;
+    text-align: center;
+    width: 900px;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+nav ul
+{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+nav li
+{
+    display: inline-block;
+    width: 30%;
+    height: 30px;
+    background-color: #033949;
+    border-radius: 5px;
+    border: #9af34a solid 2px;
+    margin-right: 14px;
+}
+a
+{
+    
+    text-decoration: none;
+    color: white;
+    margin-top: 2px;
+    font-size: 27px;
+}
+/*detalles*/
+fieldset
+{
+    border-radius: 5px;
+}
+
+.abc>li
+{
+    list-style-type: upper-alpha;
+}
+
+header h3
+{
+    position: absolute;
+    left: 15%;
+    top: 110%;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+td,th
+{
+    text-align: center;
+    padding-right: 30px;
+}
+
+section table:nth-child(5) td,section table:nth-child(5) th,section table p
+{
+    text-align: left;
+}
+
+section table:nth-child(5) td p
+{
+    padding-bottom: 225px;
+}
+
+section table
+{
+    padding-right: 100px;
+}
+
+#fix
+{
+    width: 112px;
+}
+
+section table:last-child
+{
+    width: 900px;
+}
+
+iframe {
+    border: 5px solid black;
+    width: 200%;
+}
+
+/*formularios*/
+form
+{
+    text-align: left;
+}
+
+.personalInfo label
+{
+    display: inline-block;
+    width: 50%;
+    margin: 5px;
+}
+
+
+.especial label
+{
+    display: inline;
+    width: 100%;
+}
+
+.col-2 
+{
+    width: 50%;
+    float: left;
+    overflow: auto;
+}
+
+.col-2 input
+{
+    width: 35%;
+}
+
+.right
+{
+    padding-right: 100px;
+}
+
+button
+{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #3398dc;
+    color: aliceblue;
+}
+
+/*efectos de animacion y demas*/
+button:hover
+{
+    cursor: pointer;
+}
+
+nav li:hover
+{
+    transform: scale(1.2);
+}
+
+#mail
+{
+    color: black;
+}
+
+#mail:hover
+{
+    color: blue;
+    cursor: pointer;
+}
+
+section
+{
+    animation: 1.5s;
+    animation-name: efect
+}
+
+@keyframes btn
+{
+    from
+    {
+        margin-left: 0;
+    }
+    to
+    {
+        margin-left: 150px;
+
+    }
+}
+
+
+@keyframes btn2
+{
+    from
+    {
+        left: 0;
+    }
+    to
+    {
+        left: 33%;
+
+    }
+}
+
+@keyframes efect
+{
+    from
+    {
+        transform: scale(0.1);
+    }
+    to
+    {
+        transform: scale(1);
+
+    }
+}
+
+@keyframes mostrar
+{
+    from
+    {
+        opacity: 0.1;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes girar
+{
+    to
+    {
+        transform: rotatez(1turn);
+    }
+}

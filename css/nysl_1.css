@@ -1,0 +1,106 @@
+body
+{
+    background-color: gray;
+}
+.container
+{
+    width: 900px;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+/*header de la pagina*/
+
+header
+{
+    position: relative;
+    height: 350px;
+    margin-top: 20px;
+}
+#fondo
+{
+    width: 99%;
+    height: 250px;
+    margin:5px;
+    margin-bottom: 0;
+    background: url("../img/design1_image1.jpg") no-repeat;
+    background-size:cover;
+    background-position: 0 5px;
+}
+
+#logo
+{
+    border: black solid 2px;
+    background-color: white;
+    height: 150px;
+    position: absolute;
+    bottom: 1%;
+    right: 10%;
+}
+
+
+h1
+{
+    position: absolute;
+    text-align: left; 
+    margin-left: 20px;
+    color: black;/*#00ff97*/
+}
+
+h2
+{
+    font-size: 30px;
+    margin: 0 5px 0 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+}
+
+/*section de la pagina*/
+main
+{
+    height: 350px;
+    position: relative;
+}
+
+section img
+{
+    display: none;
+}
+
+nav
+{
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+il
+{
+    display: block;
+    margin: 20px 0 20px 0px;
+    padding-bottom: 30px;
+}
+
+section
+{
+    width: 70%;
+    float: right;
+    height: 100%;
+}
+
+section p
+{
+    padding-left: 40px;
+    margin-top: 0;
+}
+
+section h3
+{
+    text-align: left;
+    margin-bottom: 0;
+    overflow: 
+}
